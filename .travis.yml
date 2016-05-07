@@ -1,0 +1,10 @@
+language: python
+dist: trustry
+    only:
+        - master
+        - dev
+python:
+    - "2.7"
+    - "2.6"
+script:
+    - sh -e ./test_first.sh
